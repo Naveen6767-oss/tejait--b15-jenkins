@@ -22,5 +22,11 @@ public class JenkinsController {
 
         //added comments for maven
 
+       @GetMapping("bye")
+
+    public String bye(){
+        return "naveen bye";
+       }
+
     }
 
